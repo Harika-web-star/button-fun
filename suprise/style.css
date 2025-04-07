@@ -1,0 +1,146 @@
+#btn1{
+    position:absolute;
+    height:15rem;
+    width:25rem;
+    color: black;
+    background-color: tomato;
+    text-align: center;
+    font-size: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#small{
+    font-size:20px;
+    font-style: italic;
+    display:block;
+    text-align: right;
+}
+#btn2{
+    position: absolute;
+    height:15rem;
+    width:25rem;
+    color: black;
+    background-color: rgb(255, 192, 224);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn3{
+    position:absolute;
+    height:15rem;
+    width:25rem;
+    color: black;
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#btn4{
+    position:absolute;
+    height:15rem;
+    width:25rem;
+    color: black;
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#btn5{
+    position:absolute;
+    height:15rem;
+    width:25rem;
+    color: black;
+    background-color: rgba(102, 255, 0, 0.934);
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#btn6{
+    position:absolute;
+    height:15rem;
+    width:25rem;
+    color: black;
+    background-color: rgba(119, 0, 255, 0.934);
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#div1{
+    position: relative;
+    display:flex;
+    flex-direction:unset;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height:100vh;
+}
+#btn1{
+    z-index: 5;
+}
+#btn2{
+    z-index: 4;
+}
+#btn3{
+    z-index: 3;
+}
+#btn4{
+    z-index: 2;
+}
+#btn5{
+    z-index: 1;
+}
+#btn6{
+    z-index: 0;
+}
+#btn1:hover{
+    background-color: red;
+    width:26rem;
+    height:16rem;
+    font-size:65px;
+}
+#btn2:hover{
+    background-color: rgb(250, 172, 212);
+    width:26rem;
+    height:16rem;
+    font-size:60px;
+}
+#btn3:hover{
+    background-color: rgb(8, 8, 216);
+    width:26rem;
+    height:16rem;
+    font-size:60px;
+}
+#btn4:hover{
+    background-color: rgb(223, 173, 6);
+    width:26rem;
+    height:16rem;
+    font-size:47px;
+}
+#btn5:hover{
+    background-color: rgb(19, 81, 4);
+    width:26rem;
+    height:16rem;
+    font-size:50px;
+}
+
+body {
+    background-image: "none";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    transition: background-image 1s ease-in-out;
+  }
+  
+  
+  
+  
